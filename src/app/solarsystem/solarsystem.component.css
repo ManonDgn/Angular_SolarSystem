@@ -1,0 +1,32 @@
+
+.h2-cont {
+    margin: 15px 0 15px 30px;
+    font-size: 18px;
+}
+
+.planets-container {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.planet-container {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 300px;
+}
+
+.planet-title {
+    color: white;
+}
+
+.planet-pic {
+    height: 150px;
+    object-fit: cover;
+}

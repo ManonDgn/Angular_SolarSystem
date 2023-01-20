@@ -1,19 +1,16 @@
-* {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
 .header-bg {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     padding: 0 20px;
-    background-color: rgb(191, 195, 245);
+    background-color: #bfc3f5;
 }
 .title-logo {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 300px;
+    width: 500px;
 }
 .h1-title {
     margin: 0;
