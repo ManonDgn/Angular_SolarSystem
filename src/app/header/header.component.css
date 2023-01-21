@@ -4,7 +4,7 @@
     align-items: center;
     height: 100px;
     padding: 0 20px;
-    background-color: #bfc3f5;
+    background-color: grey;
 }
 .title-logo {
     display: flex;
