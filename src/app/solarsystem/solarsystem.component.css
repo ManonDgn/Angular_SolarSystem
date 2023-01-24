@@ -6,32 +6,9 @@
 }
 
 .planets-container {
-    padding: 15px;
-    background-color: black;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.planet-container {
-    height: 250px;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
+    margin: 30px;
     align-items: center;
-    margin-bottom: 50px;
-}
-.planet-container:hover {
-    cursor: pointer;
-}
-
-
-.planet-title {
-    color: white;
-    padding-bottom: 20px;
-}
-
-.planet-pic {
-    width: 200px;
-    object-fit: cover;
+    justify-content: center;
 }

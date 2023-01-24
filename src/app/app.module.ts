@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { LoaderComponent } from './loader/loader.component';
 import { SolarsystemComponent } from './solarsystem/solarsystem.component';
 import { HeaderComponent } from './header/header.component';
+import { PlanetComponent } from './planet/planet.component';
+import { PlanetsListComponent } from './planets-list/planets-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoaderComponent,
     SolarsystemComponent,
-    HeaderComponent
+    HeaderComponent,
+    PlanetComponent,
+    PlanetsListComponent
   ],
   imports: [
     BrowserModule,

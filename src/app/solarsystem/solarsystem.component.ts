@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PlanetModel } from '../models/planet.model';
+import { PlanetService } from '../services/planet.service';
 
 
 @Component({
@@ -6,6 +8,13 @@ import { Component } from '@angular/core';
   templateUrl: './solarsystem.component.html',
   styleUrls: ['./solarsystem.component.css']
 })
-export class SolarsystemComponent {
+export class SolarsystemComponent implements OnInit {
+  planets!: PlanetModel[];
 
+  constructor(private PlanetService: PlanetService){
+  }
+
+  ngOnInit(){
+    this.planets = this.PlanetService.getAllPlanets();
+  }
 }
