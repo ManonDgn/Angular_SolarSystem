@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { PlanetModel } from '../models/planet.model';
 import { PlanetService } from '../services/planet.service';
 
-
 @Component({
   selector: 'app-solarsystem',
   templateUrl: './solarsystem.component.html',

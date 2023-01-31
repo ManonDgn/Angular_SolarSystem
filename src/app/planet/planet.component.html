@@ -1,4 +1,4 @@
-<div class="planet-container">
-    <h3 class="planet-title"> {{ planet.name }}</h3>
-    <img class="planet-pic" [src]="planet.imgUrl"/>
+<div class="planet-card" (click)="viewPlanet()">
+    <h2> {{ planet.name }}</h2>
+    <img [src]=planet.imgUrl/>
 </div>

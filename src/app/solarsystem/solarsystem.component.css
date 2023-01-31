@@ -1,14 +1,6 @@
-.h2-cont {
-    font-size: 18px;
-    background-color: black;
-    padding: 20px 30px;
-    color: white;
-}
-
 .planets-container {
+    padding: 40px;
     display: flex;
     flex-wrap: wrap;
-    margin: 30px;
-    align-items: center;
     justify-content: center;
 }

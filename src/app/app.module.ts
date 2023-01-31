@@ -7,7 +7,7 @@ import { LoaderComponent } from './loader/loader.component';
 import { SolarsystemComponent } from './solarsystem/solarsystem.component';
 import { HeaderComponent } from './header/header.component';
 import { PlanetComponent } from './planet/planet.component';
-import { PlanetsListComponent } from './planets-list/planets-list.component';
+import { SinglePlanetComponent } from './single-planet/single-planet.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { PlanetsListComponent } from './planets-list/planets-list.component';
     SolarsystemComponent,
     HeaderComponent,
     PlanetComponent,
-    PlanetsListComponent
+    SinglePlanetComponent,
   ],
   imports: [
     BrowserModule,
