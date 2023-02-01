@@ -1,3 +1,26 @@
 .singleplanet-container {
-
+    padding: 20px;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+.planet-description {
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+}
+.planet-description p {
+    padding-top: 50px;
+    display: flex;
+    max-width: 300px;
+}
+.planet-description img {
+    max-width: 600px;
+}
+.planet-distance {
+    padding-bottom: 50px;
+}
+p {
+    color: white;
 }

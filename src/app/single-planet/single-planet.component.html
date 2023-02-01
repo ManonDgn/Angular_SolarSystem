@@ -1,9 +1,12 @@
 <app-header></app-header>
 <div class="singleplanet-container">
     <h2> {{ planet.name }}</h2>
-    <p> {{ planet.description }} </p>
-    <p> Distance à partir du Soleil (en millions de kms) :  {{ planet.distance }}</p>
-    <p> {{ planet.moons }} </p>
-    <p> {{ planet.satellites }} </p>
-    <img [src]= planet.imgUrl/>
+    <div class="planet-description">
+        <p> {{ planet.description }} </p>
+        <img [src]= planet.imgUrl [alt]= planet.name/>
+        <div>
+            <p class="planet-distance"> Distance à partir du Soleil : {{ planet.distance }} millions de kms.</p>
+            <p> Type : {{ planet.type }}.</p>
+        </div>
+    </div>
 </div>
