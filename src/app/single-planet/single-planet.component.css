@@ -24,3 +24,15 @@ h2 {
 p {
     color: white;
 }
+@media screen and (max-width: 600px) {
+    .planet-description {
+        flex-direction: column;
+        align-items: center;
+    }
+    .planet-description img {
+        max-width: 400px;
+    }
+    .planet-distance {
+        padding-bottom: 0px;
+    }
+}

@@ -8,6 +8,7 @@ import { SolarsystemComponent } from './solarsystem/solarsystem.component';
 import { HeaderComponent } from './header/header.component';
 import { PlanetComponent } from './planet/planet.component';
 import { SinglePlanetComponent } from './single-planet/single-planet.component';
+import { CreditsComponent } from './credits/credits.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SinglePlanetComponent } from './single-planet/single-planet.component';
     HeaderComponent,
     PlanetComponent,
     SinglePlanetComponent,
+    CreditsComponent,
   ],
   imports: [
     BrowserModule,

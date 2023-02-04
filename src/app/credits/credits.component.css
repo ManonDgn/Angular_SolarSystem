@@ -1,0 +1,17 @@
+.credits-desc {
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.credits-img {
+   padding-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .credits-img {
+        width: 200px;
+    }
+}

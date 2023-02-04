@@ -1,8 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
 import { PlanetModel } from '../models/planet.model';
-import { PlanetService } from '../services/planet.service';
-
 @Component({
   selector: 'app-planet',
   templateUrl: './planet.component.html',
@@ -12,7 +10,6 @@ export class PlanetComponent implements OnInit {
   @Input() planet!: PlanetModel;
   
   constructor(
-    private planetService : PlanetService,
     private router : Router) {
   }
 

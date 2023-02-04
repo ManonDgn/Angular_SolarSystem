@@ -4,14 +4,15 @@ import { LoaderComponent } from './loader/loader.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SinglePlanetComponent } from './single-planet/single-planet.component';
 import { SolarsystemComponent } from './solarsystem/solarsystem.component';
+import { CreditsComponent } from './credits/credits.component';
 
-// Route 1 = Loader + Home
-// Route 2 = 
-// Route 3 = Erreur 404
+// Route '' = Loader + Home
+// Route ** = Erreur 404
 const routes: Routes = [
   { path: '', component: LoaderComponent},
   { path: 'solarsystem', component: SolarsystemComponent},
   { path: 'solarsystem/:id', component: SinglePlanetComponent},
+  { path: 'credits', component: CreditsComponent},
   { path: '**', component: PageNotFoundComponent}
 ];
 
